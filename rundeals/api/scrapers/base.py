@@ -47,9 +47,26 @@ def extract_colors(colorway: str) -> list[str]:
     return sorted(found)
 
 
-_APPAREL = {"tights", "tight", "shirt", "tee", "t-shirt", "top", "jacket", "vest",
-            "sock", "socks", "shorts", "bra", "hat", "cap", "glove", "hoodie",
-            "fleece", "polo", "pants", "legging", "insole", "lace", "bag"}
+_APPAREL = {
+    # Tops
+    "tights", "tight", "shirt", "tee", "t-shirt", "top", "jacket", "vest",
+    "bra", "hoodie", "fleece", "polo", "legging", "singlet", "tank",
+    "sleeve", "thermal", "turtleneck", "windbreaker", "pullover", "sweatshirt",
+    "half zip", "quarter zip", "full zip", "mock neck", " zip",
+    # Bottoms
+    "shorts", "short", "pants",
+    # Accessories / headwear
+    "sock", "socks", "hat", "cap", "glove", "bag", "insole", "lace",
+    "mask", "headwear", "balaclava", "buff", "gaiter", "beanie", "headband", "visor",
+    # Non-running footwear
+    "sandal", "flip flop", "slipper", "clog", "slide",
+    # Electronics / gadgets
+    "watch", "smartwatch", "headphone", "earbud", "earphone",
+    # Misc non-shoe products
+    "freshener", "deodorizer", "nutrition",
+    # Known non-shoe brands carried by multi-brand running stores
+    "shokz", "shoks", "garmin", "oofos", "vuori", "huggle", "zensah", "smellwell", "rabbit",
+}
 _SPIKES  = {"spike", "spikes", "cleat", "cleats", "xc shoe", "cross country shoe"}
 _SHOE    = {"shoe", "shoes", "sneaker", "trainer", "boot", "footwear"}
 _RUNNING = {"running", "road", "trail", "marathon", "run"}
