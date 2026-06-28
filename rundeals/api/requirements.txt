@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+redis
+playwright
+beautifulsoup4
+requests
+apscheduler
+python-dotenv
+pydantic
+alembic
+httpx
+lxml
