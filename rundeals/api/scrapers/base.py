@@ -54,10 +54,10 @@ _APPAREL = {
     "sleeve", "thermal", "turtleneck", "windbreaker", "pullover", "sweatshirt",
     "half zip", "quarter zip", "full zip", "mock neck", " zip",
     # Bottoms
-    "shorts", "short", "pants",
+    "shorts", "short", "pants", "pant",
     # Accessories / headwear
     "sock", "socks", "hat", "cap", "glove", "bag", "insole", "lace",
-    "mask", "headwear", "balaclava", "buff", "gaiter", "beanie", "headband", "visor",
+    "mask", "headwear", "balaclava", "buff", "gaiter", "beanie", "headband", "visor", "strapback",
     # Non-running footwear
     "sandal", "flip flop", "slipper", "clog", "slide",
     # Electronics / gadgets

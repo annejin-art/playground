@@ -270,13 +270,19 @@ export default function FilterSidebar({
       <Divider />
 
       <SectionLabel>Size</SectionLabel>
-      <PillGroup
-        options={availableFilters?.sizes ?? []}
-        selected={currentFilters.sizes}
-        onToggle={(v) =>
-          onFilterChange({ sizes: toggle(currentFilters.sizes, v), page: 1 })
-        }
-      />
+      {(availableFilters?.sizes ?? []).length > 5 ? (
+        <PillGroup
+          options={availableFilters?.sizes ?? []}
+          selected={currentFilters.sizes}
+          onToggle={(v) =>
+            onFilterChange({ sizes: toggle(currentFilters.sizes, v), page: 1 })
+          }
+        />
+      ) : (
+        <p className="text-xs text-gray-400 italic">
+          Size data not available for most sources yet.
+        </p>
+      )}
 
       <Divider />
 
