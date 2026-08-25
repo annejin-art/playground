@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "naval-perspective": {
+      "source": "alchaincyf/naval-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "c77075d1ad54b0256994cc812b919dd8e1848168a75dbcac8ab80731ace9114a"
+    }
+  }
+}
